@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Interfaces_Stone_Evan
 {
-    internal class Class1
+    interface IGenre
     {
+
+        public string Esrb { get; set; }
+        
+        public string Genre { get; set;}
+
+        public string Title { get; set; }
+
+        public string Describe();
+
     }
 }
